@@ -16,15 +16,15 @@
           {{ grade }}
         </b-list-group-item>
       </b-list-group>
-      <b-list-group horizontal class="flex-fill ml-2 text-monospace">
+      <b-list-group horizontal class="ml-2 flex-fill text-monospace">
         <b-list-group-item class="border-0 pb-0 flex-fill">
           绩点：{{ gradePoint }}
         </b-list-group-item>
         <b-list-group-item class="border-0 pb-0 flex-fill">
           成绩排名：{{ gradeDetail }}
         </b-list-group-item>
-        <b-list-group-item class="border-0 flex-fill"> </b-list-group-item>
-        <b-list-group-item class="border-0 flex-fill"> </b-list-group-item>
+        <b-list-group-item class="border-0 pb-0 flex-grow-1"></b-list-group-item>
+        <b-list-group-item class="border-0 pb-0 flex-grow-1"></b-list-group-item>
       </b-list-group>
     </b-row>
   </b-container>
@@ -39,7 +39,7 @@ export default {
       school: "桂林理工大学",
       major: "软件工程",
       grade: "大学本科",
-      gradePoint: 4.2,
+      gradePoint: "4.2",
       gradeDetail: "4/90"
     };
   }

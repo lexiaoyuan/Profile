@@ -12,8 +12,7 @@
       <b-col cols="5" class="text-monospace">
         <b-list-group>
           <b-list-group-item class="border-0 pb-0 px-2">
-            姓名：
-            <span class="font-weight-bold">{{ name }}</span>
+            姓名：<span class="font-weight-bold">{{ name }}</span>
           </b-list-group-item>
           <b-list-group-item class="border-0 pb-0 px-2">
             性别：{{ sex }}
@@ -22,16 +21,14 @@
             年龄：{{ age }}
           </b-list-group-item>
           <b-list-group-item class="border-0 pb-0 px-2">
-            联系电话：
-            <span class="font-weight-bold">{{ phone }}</span>
+            联系电话：<span class="font-weight-bold">{{ phone }}</span>
           </b-list-group-item>
         </b-list-group>
       </b-col>
-      <b-col cols="5" class="p-0 m-0 text-monospace">
+      <b-col cols="5" class="p-0 ml-n4 text-monospace">
         <b-list-group>
           <b-list-group-item class="border-0 pb-0 px-2">
-            求职意向：
-            <span class="font-weight-bold">{{ intention }}</span>
+            求职意向：<span class="font-weight-bold">{{ intention }}</span>
           </b-list-group-item>
           <b-list-group-item class="border-0 pb-0 px-2">
             所在地：{{ position }}
@@ -40,12 +37,11 @@
             政治面貌：{{ political }}
           </b-list-group-item>
           <b-list-group-item class="border-0 pb-0 px-2">
-            邮箱：
-            <span class="font-weight-bold">{{ email }}</span>
+            邮箱：<span class="font-weight-bold">{{ email }}</span>
           </b-list-group-item>
         </b-list-group>
       </b-col>
-      <b-col cols="2" class="p-0 m-0">
+      <b-col cols="2" class="p-0 ml-4">
         <b-card-img
           :src="require('@/assets/avatar.png')"
           class="rounded-0"
@@ -54,8 +50,7 @@
     </b-row>
     <b-row>
       <p class="ml-4 mt-2 text-monospace">
-        博客：
-        <b-link href="https://blog.csdn.net/xu_benjamin" target="_blank">
+        博客：<b-link href="https://blog.csdn.net/xu_benjamin" target="_blank">
           {{ blog }}
         </b-link>
       </p>
