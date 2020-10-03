@@ -52,7 +52,7 @@ export default {
           projectTitle: "《辉煌新时代，追梦新征程》主题网站（团队项目）",
           projectDesc: `使用Vue+BootstrapVue+Webpack等技术开发的SPA。以组件化的开发方式完成整个网站的所有页面设计及实现。并实现了手机与电脑端的兼容处理和中英文切换。`,
           projectGithub: "https://github.com/lexiaoyuan/new-era",
-          projectPreview: "http://www.lexiaoyuan.club:3000/#/"
+          projectPreview: "http://www.lexiaoyuan.club/newera"
         },
         {
           projectTime: "2018.11",

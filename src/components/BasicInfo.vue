@@ -49,11 +49,25 @@
       </b-col>
     </b-row>
     <b-row>
-      <p class="ml-4 mt-2 text-monospace">
-        博客：<b-link href="https://blog.csdn.net/xu_benjamin" target="_blank">
-          {{ blog }}
-        </b-link>
-      </p>
+      <b-col cols="12">
+        <p class="ml-2 mt-2 text-monospace mb-0">
+          个人网站：<b-link href="http://www.lexiaoyuan.club" target="_blank">
+            {{ site }}
+          </b-link>
+        </p>
+      </b-col>
+    </b-row>
+    <b-row>
+      <b-col cols="12">
+        <p class="ml-2 mt-2 text-monospace">
+          CSDN：<b-link
+            href="https://blog.csdn.net/xu_benjamin"
+            target="_blank"
+          >
+            {{ blog }}
+          </b-link>
+        </p>
+      </b-col>
     </b-row>
   </b-container>
 </template>
@@ -70,7 +84,8 @@ export default {
       position: "湖北孝感",
       political: "中共党员",
       email: "lexiaoyuan@foxmail.com",
-      blog: "https://blog.csdn.net/xu_benjamin"
+      blog: "https://blog.csdn.net/xu_benjamin",
+      site: "http://www.lexiaoyuan.club"
     };
   }
 };
