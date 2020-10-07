@@ -23,7 +23,7 @@
               {{ project.projectGithub }}
             </b-link>
           </p>
-          <p v-if="project.projectGithub" class="desc-indent">
+          <p v-if="project.projectPreview" class="desc-indent">
             预览地址：
             <b-link :href="project.projectPreview" target="_blank">
               {{ project.projectPreview }}
@@ -41,18 +41,18 @@ export default {
     return {
       projects: [
         {
-          projectTime: "2020.3",
-          projectTitle: "易备系统（个人项目）",
-          projectDesc: `基于SSM框架开发的一个备忘录系统。整合了Bootstrap、layer、laydate等组件，并部署在Docker容器中。实现了登录、注册、新建、查看、修改、删除、注销等功能以及登录和注册拦截器。`,
-          projectGithub: "https://github.com/lexiaoyuan/EasyMemo",
-          projectPreview: "http://101.200.137.210:3002/EasyMemo/"
+          projectTime: "2020.6",
+          projectTitle: "LeBlog（个人项目）",
+          projectDesc: `使用Spring Boot+Vue等技术开发的个人博客网站。并实现了一个后台管理系统，能够对网站上的文章进行管理。并通过前后端分开部署的方式将其部署在Docker中，实现了一个完整可用的个人博客网站。`,
+          projectGithub: "",
+          projectPreview: "https://www.lexiaoyuan.club"
         },
         {
           projectTime: "2019.7",
           projectTitle: "《辉煌新时代，追梦新征程》主题网站（团队项目）",
           projectDesc: `使用Vue+BootstrapVue+Webpack等技术开发的SPA。以组件化的开发方式完成整个网站的所有页面设计及实现。并实现了手机与电脑端的兼容处理和中英文切换。`,
           projectGithub: "https://github.com/lexiaoyuan/new-era",
-          projectPreview: "http://www.lexiaoyuan.club/newera"
+          projectPreview: "https://www.lexiaoyuan.club/newera"
         },
         {
           projectTime: "2018.11",

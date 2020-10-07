@@ -51,7 +51,7 @@
     <b-row>
       <b-col cols="12">
         <p class="ml-2 mt-2 text-monospace mb-0">
-          个人网站：<b-link href="http://www.lexiaoyuan.club" target="_blank">
+          个人网站：<b-link href="https://www.lexiaoyuan.club" target="_blank">
             {{ site }}
           </b-link>
         </p>
@@ -85,7 +85,7 @@ export default {
       political: "中共党员",
       email: "lexiaoyuan@foxmail.com",
       blog: "https://blog.csdn.net/xu_benjamin",
-      site: "http://www.lexiaoyuan.club"
+      site: "https://www.lexiaoyuan.club"
     };
   }
 };
